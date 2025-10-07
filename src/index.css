@@ -45,50 +45,6 @@ body {
   background-color: rgba(37, 110, 235, 1);
 }
 
-.search {
-  margin-bottom: 45px;
-}
-
-.search-box {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 100%;
-  border-radius: 5px;
-  background-color: rgba(37, 110, 235, 1);
-  padding: 3px;
-}
-
-.search-box input {
-  flex-grow: 1;
-  padding: 14px 22px;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  min-width: 0;
-}
-
-.search-box input::placeholder {
-  font-size: 14px;
-  line-height: 16px;
-}
-
-.search-btn {
-  display: flex;
-  align-items: center;
-}
-
-.search-btn .search-btn__icon {
-  width: 15px;
-  height: 15px;
-}
-
-.search-btn .search-btn__text {
-  margin-left: 2px;
-  font-size: 16px;
-  line-height: 19px;
-}
-
 .content {
   padding-bottom: 50px;
 }
@@ -104,11 +60,6 @@ body {
   flex-grow: 1;
 }
 
-.content-side {
-  width: 260px;
-  min-width: 260px;
-}
-
 .content-main__title {
   font-size: 24px;
   line-height: 28px;
@@ -122,58 +73,6 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 30px;
-}
-
-.content-side__title {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  margin-top: 0;
-  margin-bottom: 23px;
-}
-
-.content-side__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  gap: 25px;
-  border-bottom: 1px solid rgba(229, 229, 229, 1);
-  margin-bottom: 36px;
-  padding-bottom: 36px;
-}
-
-.content-side__list-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.content-side__list-item--title {
-  margin-top: 7px;
-  margin-bottom: 5px;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16px;
-}
-
-.content-side__list-item--text {
-  font-size: 14px;
-  line-height: 16px;
-  margin: 0;
-}
-
-.content-side__footer {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.content-side__footer--item {
-  color: rgba(196, 196, 196, 1);
-  font-size: 14px;
-  line-height: 16px;
-  margin: 0;
 }
 
 .content-product {
@@ -233,11 +132,6 @@ body {
     width: 100%;
   }
 
-  .content-side {
-    width: 100%;
-    min-width: none;
-  }
-
   .content-product {
     width: 100%;
     flex-direction: column;
@@ -257,9 +151,5 @@ body {
 @media (max-width: 786px) {
   .container {
     max-width: 100%;
-  }
-
-  .search-btn .search-btn__text {
-    display: none;
   }
 }
